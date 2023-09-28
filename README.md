@@ -1,5 +1,5 @@
 
-
+![image](https://github.com/molla202/Structs/assets/91562185/cc163ae3-c886-468c-a64a-a48699cdae4b)
 
 
 ### Update ve gereklilikler
@@ -8,6 +8,7 @@ sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -
 
 
 ### Go kurulumu
+```
 cd $HOME
 ! [ -x "$(command -v go)" ] && {
 VER="1.19.3"
@@ -20,8 +21,9 @@ echo "export PATH=$PATH:/usr/local/go/bin:~/go/bin" >> ~/.bash_profile
 source $HOME/.bash_profile
 }
 [ ! -d ~/go/bin ] && mkdir -p ~/go/bin
+```
 
-![image](https://github.com/molla202/Structs/assets/91562185/cc163ae3-c886-468c-a64a-a48699cdae4b)
+
 
 `Site` : https://www.playstructs.com/
 `Explorer` : https://testnet.itrocket.net/structs/staking
