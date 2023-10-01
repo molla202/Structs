@@ -47,8 +47,8 @@ source $HOME/.bash_profile
 ### Binary çekelim
 ```
 cd $HOME
-wget -O https://testnet-files.itrocket.net/structs/structsd
-chmod +X $HOME/structsd
+wget -O $HOME/structsd https://testnet-files.itrocket.net/structs/structsd
+chmod +x $HOME/structsd
 mv $HOME/structsd $HOME/go/bin
 ```
 ### İnit işlemleri
